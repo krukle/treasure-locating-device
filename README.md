@@ -1,2 +1,2 @@
 # treasure-locating-device
-Logic test received at a work interview
+Logic test received for a job application
