@@ -1,7 +1,17 @@
 
-# # Create a new class Task that Task1 and Task2 inherit from.
-
 class Task():
+    """
+    Create a new class Task that Task1 and Task2 inherit from.
+
+    Args:
+        data (list): data
+
+    Attributes:
+        data (list): data
+        result (int): result
+        name (str): name
+        description (str): description
+    """
     def __init__(self, data:list):
         self.data = data
         self.result = 0
@@ -28,7 +38,7 @@ class Task():
 
     def solve(self):
         """
-        Solve the task    
+        Solve the task
         """
         pass
 
