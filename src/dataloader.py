@@ -1,6 +1,15 @@
-
 class DataLoader:
+    """
+    Data loader
+    
+    Attributes:
+        data (list): data
+    """
+    
     def __init__(self):
+        """
+        Initialize the data loader
+        """
         self.data = []
 
     def load(self, file:str):
