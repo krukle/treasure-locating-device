@@ -9,6 +9,30 @@ JavaScript, C#).
 
 - You will get an input file (input.txt) containing the data for the puzzle.
 
+## Running the project
+
+### Requirements
+
+- Python 3.8.10^
+
+### Clone the repository
+
+```bash
+git clone git@github.com:krukle/treasure-locating-device.git
+```
+
+### Move into the directory
+
+```bash
+cd treasure-locating-device
+```
+
+### Run the code
+
+```bash
+python src/main.py
+```
+
 ## PART 1
 
 You’re the luckiest person on earth! You’ve inherited a treasure-locating-device from a distant relative in Ireland. The device will tell the position of treasures at the end of the rainbow! Yippie! Let’s find some treasures...
