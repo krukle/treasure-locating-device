@@ -1,4 +1,5 @@
 from task import Task
+import numpy as np
 
 class Task2(Task):
 
@@ -11,7 +12,7 @@ class Task2(Task):
         """
         Solve the task
         """
-        frequencies = [0]
+        frequencies = {0}
         current_frequency = 0
         while True:
             for change in self.data:
@@ -19,4 +20,4 @@ class Task2(Task):
                 if current_frequency in frequencies:
                     self.result = current_frequency
                     return
-                frequencies.append(current_frequency)
+                frequencies.add(current_frequency)
